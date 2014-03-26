@@ -4,6 +4,7 @@ Exec {
 }
 
 include bootstrap
+include system_update
 include tools
 include apache
 include php

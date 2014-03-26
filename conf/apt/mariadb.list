@@ -1,0 +1,4 @@
+# MariaDB 5.5 repository list - created 2014-03-26 11:46 UTC
+# http://mariadb.org/mariadb/repositories/
+deb http://mirror.stshosting.co.uk/mariadb/repo/5.5/debian wheezy main
+deb-src http://mirror.stshosting.co.uk/mariadb/repo/5.5/debian wheezy main
