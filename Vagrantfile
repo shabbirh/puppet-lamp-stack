@@ -30,6 +30,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # your network.
   # config.vm.network "public_network"
 
+  # Important - check your own Mac's settings for what interface you want to use as your bridge.
+  # in my case it's en3, for you it maybe something else.
+  config.vm.network "public_network", :bridge => 'en3:'
+
   # If true, then any SSH connections made will enable agent forwarding.
   # Default value: false
   # config.ssh.forward_agent = true
