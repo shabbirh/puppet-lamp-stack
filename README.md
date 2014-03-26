@@ -10,14 +10,23 @@ Credit must be given where credit is due. Most of this work was made possible by
 ## Prerequisites
 * [Vagrant](http://www.vagrantup.com/)
 * [Virtual Box](https://www.virtualbox.org/)
+OR
+* [Parallels] (http://www.parallels.com/)
 
 ## Instructions
-0. Insure Vagrant and Virutal Box are installed.
+0. Insure Vagrant and Virutal Box or Parallels are installed.
+1. I use the ricordanza/wheezy box (from vagrantcloud.com with Vagrant 1.5.x)
+    
+        $ vagrant init ricordanza/wheezy
+        
 1. Install precise32 Vagrant box. (If not installed already)
 
         $ vagrant box add precise32 http://files.vagrantup.com/precise32.box
 
-2. Clone this repository.
+2. Clone this repository into your working folder.
+
+        $ git clone https://github.com/shabbirh/puppet-lamp-stack.git .
+        
 3. Create directory "webroot" in the root directory of the clone. This will act as your root web folder.
 4. Open up terminal, change directory to the git repo root, and start the vagrant box.
 
