@@ -1,3 +1,5 @@
+# CURRENTLY BROKEN - WILL TRY TO FIX LATER.  Sorry folks!
+
 # LAMP Stacks Made Easy with Vagrant & Puppet
 
 Building a LAMP stack with Puppet and Vagrant to develop, test, and/or build the worlds next great application should be easy. Use this all inclusive code to quickly kickstart your next application environement.
