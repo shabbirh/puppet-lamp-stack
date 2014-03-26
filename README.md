@@ -32,6 +32,39 @@ OR
 
         $ vagrant up
 
+5. Upgrade Parallels Tools.  Follow these instructions:
+    5.1. Start the virtual machine.
+    5.2. When the VM has booted, select the "Virtual Machine/Reinstall Parallels Tools" option from the Parallels Menu.
+    5.3. Get root priviledges on your VM - either use su - or sudo -i
+    
+        $ sudo -i
+    
+    5.4. Check if the Parallels Tools ISO is already mounted:
+    
+        # mount | grep iso9660
+    
+    5.5. If the above command returns anything that has the words "noexec" in it - then follow the instructions below, otherwise skip over to 5.7.:
+        5.5.1. Unmount the ISO
+    
+            # umount /dev/cdrom
+    
+    5.6. Mount the ISO with exec permissions:
+       
+        # mount -o exec /dev/cdrom /media/cdrom
+    
+    5.7. Install the Tools
+      
+        # cd /media/cdrom
+        # ./install
+        
+    5.8. Follow the on-screen instructions.
+    
+    5.9. Restart the Vagrant Machine
+    
+        $ vagrant halt
+        # vagrant up
+           
+
 You're all set up. The webserver will now be accessible from http://localhost:8888
 
 ## System Package include
