@@ -63,7 +63,8 @@ OR
     
         $ vagrant halt
         # vagrant up
-           
+   
+   (For more detailed instructions on Upgrading Parallels Tools see: http://download.parallels.com/desktop/v4/docs/en/Parallels_Desktop_Users_Guide/22570.htm)        
 
 You're all set up. The webserver will now be accessible from http://localhost:8888
 
