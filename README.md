@@ -6,6 +6,8 @@ Building a LAMP stack with Puppet and Vagrant to develop, test, and/or build the
 Credit must be given where credit is due. Most of this work was made possible by:
 * [PerishableDave/puppet-lamp-stack](https://github.com/PerishableDave/puppet-lamp-stack).
 * [jas0nkim/my-vagrant-puppet-lamp](https://github.com/jas0nkim/my-vagrant-puppet-lamp).
+* [jrodriguezjr/puppet-lamp-stack](https://github.com/jrodriguezjr/puppet-lamp-stack).
+* [Parallels/vagrant-parallels](https://github.com/Parallels/vagrant-parallels).
 
 ## Prerequisites
 * [Vagrant](http://www.vagrantup.com/)
